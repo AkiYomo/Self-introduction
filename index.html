@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- 問題１ -->
-    <title>Sample</title>
+    <title>おなか減った</title>
 
     <style>
         body {
@@ -54,6 +54,11 @@
             text-align: center;
             /* 問題１３ */
         }
+
+        .poster {
+            width:720px;
+            height:1280px;
+        }
     </style>
 
 </head>
@@ -61,19 +66,35 @@
 <body>
     <!-- 問題８ -->
     <!-- ここにヘッダーを作成 -->
+    <header>
+      <div class=header-logo>
+          おひるのらーめん
+      </div>
+    </header>>
 
     <!-- 問題２ -->
     <div class="contents1">
        
         <!-- ここに見出し -->
-        
+        <h1>AkiYomo　お昼の時間だよ</h1>
         <!-- ここに段落 -->
-
+        <p>らーめん食べたいページです</p>
         <hr>
 
         <div class="aboutme">
             <!-- 問題７ -->
             <!-- ここにリストを作成 -->
+            <ul>
+                <li>
+                    しゅっしん：ほっかいどう
+                </li>
+                <li>
+                    しゅみ：しじー
+                </li>
+                <li>
+                    とくぎ：きゅうぎ
+                </li>
+            </ul>
         </div>
     </div>
 
@@ -81,10 +102,14 @@
 
     <div class="contents2">
     	<!-- 問題１０ -->
-        <h2>♪Favorite Music♪</h2>
+        <h2><span class="kigou">♪</span>Favorite Music<span class="kigou">♪</span></h2>
         <div>
             <!-- 問題１１ -->
             <!-- Favoriteの内容を3つ作成しよう -->
+            <div>
+                <a href="https://twitter.com/virtual_kaf">花譜</a>
+            </div>
+            
         </div>
     </div>
 
@@ -92,16 +117,20 @@
 
     <div class="contents3">
 		<!-- 問題１０ -->
-        <h2>☆This is my smoothie☆</h2>
+        <h2><span class="kigou">☆</span>This is my smoothie<span class="kigou">☆</span></h2>
         <div>
             <!-- 問題３ -->
             <!-- ここにリンクを作成 -->
+            <a href="http://192.168.2.78/" target="_blank">すむーじー</a>
             <!-- 問題４ ※上記リンクを別タブで開くように指定-->
+
+
         </div>
 
         <div>
             <!-- 問題５ -->
             <!-- ここに画像を表示 -->
+            <a href="http://192.168.2.78/" target="_blank"><img class="poster" src="./img/poster.jpg" alt="ぽすたー"></a>>
             <!-- 問題６　上記画像をリンクにしてみよう -->
         </div>
     </div>
@@ -109,6 +138,11 @@
 
     <!-- 問題９ -->
     <!-- ここにフッターを作成 -->
+    <footer>
+        <div class="footer-logo">
+            <small>Copyright @ 2019 ｛AkiYomo らーめん店｝ All Rights Reserved.</small>
+        </div>
+    </footer>
 </body>
 
 </html>
